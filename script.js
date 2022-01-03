@@ -1,6 +1,7 @@
 window.onload = function () {
   const corPrincipal = document.getElementById('rgb-color');
   const bola = document.querySelector('.ball');
+  // obs: randomizar o valor das bolas primeiro para depois selecionar o valor correto
 
   function randomizeRGB() {
     const valorRGB = [0, 1, 2];
